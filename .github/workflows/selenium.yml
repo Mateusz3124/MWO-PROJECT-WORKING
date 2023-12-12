@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Prepare
+      run: |
+        wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+        sudo dpkg -i packages-microsoft-prod.deb
+        sudo apt-get install -y dotnet-sdk-7.0
+        ls
+        cd api
+        dotnet restore
+        dotnet build --no-restore
+        dotnet run &
+        cd ..
+        cd web
+        dotnet restore
+        dotnet build --no-restore
+        dotnet run &
+        cd ..
+    - uses: browser-actions/setup-chrome@v1
+    - run: chrome --version
+    - name: Test
+      run: |
+        pip install selenium
+        pip install pytest
+    - run: pytest test_sel.py
+    - name: The job has failed
+      uses: stefanstranger/azuredevops-bug-action@1.1
+      if: failure()
+      with:
+        OrganizationName: "01169624"
+        PAT: "PAT"
+        ProjectName: "MWO"
+        AreaPath: "MWO"
+        IterationPath: "MWO"
+        GithubToken: "GithubToken"
+        WorkflowFileName: "main.yml"
+      env:
+        PAT: ${{ secrets.PAT}}
+        GithubToken: ${{ secrets.githubtoken}}
