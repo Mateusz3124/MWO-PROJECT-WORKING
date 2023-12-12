@@ -17,7 +17,7 @@ Tutaj testy selenium:
 
 ![image](https://github.com/Mateusz3124/MWO-projekt/assets/95550799/bb88dfa1-8c1b-4b6a-b4ce-8a0f50dac793)
 
-Jak widać pokazuje się, że wszystko działa poprawnie
+Jak widać pokazuje się, że wszystko działa poprawnie.
 
 Jeżeli jest bład pojawia się odpowiednia informacja na dole:
 
@@ -38,6 +38,8 @@ Po ich utworzeniu zostają dodane do secret:
 Potem wykorzystujemy je w actions do dodania bug do azure:
 
 ![image](https://github.com/Mateusz3124/MWO-projekt/assets/95550799/0e8de254-e6f8-46a7-ab1a-05a25edcd7a7)
+
+
 
 
 
