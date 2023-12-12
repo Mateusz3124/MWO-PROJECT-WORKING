@@ -1,0 +1,12 @@
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\bin\Debug\net7.0\P06Shared.deps.json
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\bin\Debug\net7.0\P06Shared.dll
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\bin\Debug\net7.0\P06Shared.pdb
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\P06Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\P06Shared.AssemblyInfoInputs.cache
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\P06Shared.AssemblyInfo.cs
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\P06Shared.csproj.CoreCompileInputs.cache
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\P06Shared.sourcelink.json
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\P06Shared.dll
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\refint\P06Shared.dll
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\P06Shared.pdb
+C:\Users\paweł\Desktop\mix\zad-3-PAMW\P06Shop.Shared\obj\Debug\net7.0\ref\P06Shared.dll

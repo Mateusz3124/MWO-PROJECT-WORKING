@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OWmSZJItReVnJBd1lGcJg+esGY2XSUdG7koDH21qTTpX+Z+eeV7VOghZd4s5rqhkMHFuZuTy8yRZ1cA+Oc32gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\DataSeeder\\P07DataSeeder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paweł\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
+    "C:\\Users\\paweł\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\paweł\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\paweł\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

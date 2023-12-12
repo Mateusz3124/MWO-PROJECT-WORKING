@@ -1,0 +1,362 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P11\\P11.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P05Shop.API\\backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P05Shop.API\\backend.csproj",
+        "projectName": "backend",
+        "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P05Shop.API\\backend.csproj",
+        "packagesPath": "C:\\Users\\paweł\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P05Shop.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paweł\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj": {
+                "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj"
+              },
+              "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P07Shop.DataSeeder\\P07DataSeeder.csproj": {
+                "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P07Shop.DataSeeder\\P07DataSeeder.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj",
+        "projectName": "P06Shared",
+        "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj",
+        "packagesPath": "C:\\Users\\paweł\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paweł\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P07Shop.DataSeeder\\P07DataSeeder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P07Shop.DataSeeder\\P07DataSeeder.csproj",
+        "projectName": "P07DataSeeder",
+        "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P07Shop.DataSeeder\\P07DataSeeder.csproj",
+        "packagesPath": "C:\\Users\\paweł\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P07Shop.DataSeeder\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paweł\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj": {
+                "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P11\\P11.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P11\\P11.csproj",
+        "projectName": "P11",
+        "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P11\\P11.csproj",
+        "packagesPath": "C:\\Users\\paweł\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P11\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paweł\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P05Shop.API\\backend.csproj": {
+                "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P05Shop.API\\backend.csproj"
+              },
+              "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj": {
+                "projectPath": "C:\\Users\\paweł\\Desktop\\mix\\zad-3-PAMW\\P06Shop.Shared\\P06Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
