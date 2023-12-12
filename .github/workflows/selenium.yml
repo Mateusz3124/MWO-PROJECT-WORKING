@@ -39,7 +39,7 @@ jobs:
       run: |
         pip install selenium
         pip install pytest
-    - run: pytest test_sel.py
+    - run: pytest -v test_sel.py
     - name: The job has failed
       uses: stefanstranger/azuredevops-bug-action@1.1
       if: failure()
