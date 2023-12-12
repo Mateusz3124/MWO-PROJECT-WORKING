@@ -39,6 +39,18 @@ Potem wykorzystujemy je w actions do dodania bug do azure:
 
 ![image](https://github.com/Mateusz3124/MWO-projekt/assets/95550799/0e8de254-e6f8-46a7-ab1a-05a25edcd7a7)
 
+Żeby zamienić coś w branch main musimy zrobić pull request:
+
+![image](https://github.com/Mateusz3124/MWO-PROJECT-WORKING/assets/95550799/873b8519-fba8-49bf-b5ca-f0c3c30690c7)
+
+
+Jak robimy pullrequesa musi on przejść test:
+
+![image](https://github.com/Mateusz3124/MWO-PROJECT-WORKING/assets/95550799/007035fa-6f8d-456b-b9ba-44bb7e9fe446)
+
+
+
+
 
 
 
