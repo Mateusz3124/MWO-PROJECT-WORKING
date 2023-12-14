@@ -1,4 +1,3 @@
-
 Tak wygląda strona:
 ![image](https://github.com/Mateusz3124/MWO-projekt/assets/95550799/2856a02f-5bfd-48eb-b72c-b8729982cf17)
 Można dodać:
