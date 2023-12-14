@@ -42,7 +42,7 @@ def test_if_edit_book_correctly():
     headers = table.find_elements(By.TAG_NAME,"tr")
     title = headers[2].text.split( )[0]
     author = headers[2].text.split( )[1]
-    assert title in "TIIT", "not working editing book, incorrect title"
+    assert title in "IT", "not working editing book, incorrect title"
     assert author in "JOHNNY", "not working editing book, incorrect author"
 
 def test_if_delete_book_works():

@@ -50,7 +50,7 @@ jobs:
         AreaPath: "MWO"
         IterationPath: "MWO"
         GithubToken: "GithubToken"
-        WorkflowFileName: "main.yml"
+        WorkflowFileName: "selenium.yml"
       env:
         PAT: ${{ secrets.PAT}}
         GithubToken: ${{ secrets.githubtoken}}
